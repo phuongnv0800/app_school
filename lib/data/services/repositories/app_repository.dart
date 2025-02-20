@@ -17,7 +17,7 @@ import '../../../blocs/minimal_functonality/network_observer/network_bloc.dart';
 
 class AppRepository {
   observeNetwork() {
-    Connectivity().onConnectivityChanged.listen((ConnectivityResult result) {
+    Connectivity().onConnectivityChanged.listen((result) {
       if (result == ConnectivityResult.none) {
         NetworkBloc().add(const NetworkNotify());
       } else {

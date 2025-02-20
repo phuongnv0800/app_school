@@ -176,7 +176,7 @@ class AdminTwitterCard extends StatelessWidget {
                               width: 110,
                               child: ElevatedButton(
                                 style: ElevatedButton.styleFrom(
-                                  primary: Colors.white,
+                                  backgroundColor: Colors.white,
                                   elevation: 0,
                                   shape: RoundedRectangleBorder(
                                     side: const BorderSide(
@@ -205,7 +205,7 @@ class AdminTwitterCard extends StatelessWidget {
                               width: 110,
                               child: ElevatedButton(
                                 style: ElevatedButton.styleFrom(
-                                  primary: Colors.red,
+                                  backgroundColor: Colors.red,
                                   elevation: 0,
                                   shape: RoundedRectangleBorder(
                                     side: const BorderSide(

@@ -38,7 +38,7 @@ showReportSheet({required BuildContext context}) {
                     ),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: FlexColor.aquaBlueDarkSecondaryContainer,
+                        backgroundColor: FlexColor.aquaBlueDarkSecondaryContainer,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),

@@ -48,7 +48,7 @@ void main() async {
       await getApplicationDocumentsDirectory(); // from path provider
 
   HydratedBloc.storage = await HydratedStorage.build(
-    storageDirectory: directory,
+    storageDirectory: HydratedStorageDirectory(directory.path),
   );
   SystemChannels.textInput.invokeMethod('TextInput.hide');
   await NotificationProviders().initializeNotifications();

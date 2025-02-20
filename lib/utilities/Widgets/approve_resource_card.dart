@@ -459,7 +459,7 @@ class AdminApprovedResourceCard extends StatelessWidget {
                           width: 110,
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                              primary: Colors.red,
+                              backgroundColor: Colors.red,
                               elevation: 0,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(20),
@@ -484,7 +484,7 @@ class AdminApprovedResourceCard extends StatelessWidget {
                               builder: (context, state) {
                                 return ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                    primary: const Color(0xFF217604),
+                                    backgroundColor: const Color(0xFF217604),
                                     elevation: 0,
                                     shape: RoundedRectangleBorder(
                                       side: const BorderSide(
